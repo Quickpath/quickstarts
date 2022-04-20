@@ -1,0 +1,11 @@
+column_name,data_type,feature_type,transformation,column_default,column_range
+credit_score,integer,Continuous,None,619,350 -- 850
+geography,integer,Categorical,Label Encode,France,"{""France"": 0, ""Germany"": 1, ""Spain"": 2}"
+gender,integer,Categorical,Label Encode,Male,"{""Female"": 0, ""Male"": 1}"
+age,integer,Continuous,None,42,18 -- 92
+tenure,integer,Continuous,None,2,0 -- 10
+balance,float,Continuous,None,0.0,0 -- 250898.09
+number_of_products,integer,Continuous,None,1,1 -- 4
+has_credit_card,integer,Continuous,None,1,"[0, 1]"
+is_active_member,integer,Continuous,None,1,"[0, 1]"
+estimated_salary,float,Continuous,None,101348.88,11.58 -- 199992.48
